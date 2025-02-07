@@ -1,0 +1,79 @@
+body{
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    /* height: 100vh; */
+}
+
+
+.conteiner{
+    margin-top: 50px;
+    width: 90%;
+    max-width: 600px;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+h1{
+    text-align: center;
+}
+
+input{
+    width: 60%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-left: 10%;
+}
+
+button{
+    width: 20%;
+    padding: 10px;
+    font-size: 16px;
+    background: #82c517;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #5fe47b;
+}
+
+.notesContainer{
+    width: 80%;
+    margin: 20px auto 0;
+}
+
+.noteItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+    background: #f8f9fa;
+}
+
+.noteItem button {
+    background: #dc3545;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.noteItem button:hover {
+    background-color: #f55968;
+}
